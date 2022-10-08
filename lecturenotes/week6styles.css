@@ -1,0 +1,20 @@
+p, ul {
+    color:tomato;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+/* descendent selector*/
+p a {
+    color:darkorchid;
+}
+/* this is an id selectorr*/
+#firstparagraph {
+    color:cadetblue;
+}
+.pinktext {
+    color: hotpink;
+}
+/* removing an underline under a link*/
+a {
+    text-decoration: none;
+}

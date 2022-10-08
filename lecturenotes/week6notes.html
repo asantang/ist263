@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 CSS Intro</title>
+    <!--this is an embedded style sheet-->
+    <style>
+        /*below we have a grouped selector*/
+        p, ul {
+            color:tomato;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: underline;
+        }
+        /* descendent selector*/
+        p a {
+            color:darkorchid;
+        }
+        /* this is an id selectorr*/
+        #firstparagraph {
+            color:cadetblue;
+        }
+        .pinktext {
+            color: hotpink;
+        }
+        /* removing an underline under a link*/
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <a href="http://www.amazon.com">Amazon</a>
+    <!-- id values must be unique as they are only used once -->
+    <p id="firstparagraph">Lorem, <a href=""http://www.google.com>Google</a> ipsum dolor sit amet consectetur adipisicing elit. Asperiores temporibus sit molestias repellat ipsam, mollitia quod tempora, nostrum, odio non fugiat nemo. Quia, harum aperiam! Cumque provident molestias nobis ad.
+    </p>
+    <ul>
+        <li>primary colors</li>
+        <li class="pinktext">secondary colors</li>
+        <li>terchiary colors</li>
+    </ul>
+    <p> I'm excited it's almost halloween</p>
+    <!-- cass can be used over and over again, but-->
+    <p class="pinktext"> I'm going to be a dog.</p>
+</body>
+</html>
