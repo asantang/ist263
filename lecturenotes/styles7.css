@@ -1,0 +1,19 @@
+a:visited {
+    color: #bbc4bd;
+}
+a:hover {
+    color: #42f572;
+}
+body {
+    background-color: #e8e7e1;
+
+}
+p {
+    background-image: url("../images/fruit.png");
+    background-repeat: no-repeat; 
+}
+.second {
+    border: 2px solid #40b9de;
+    margin: 30px;
+    padding: 10px;
+}
