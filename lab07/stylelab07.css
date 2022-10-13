@@ -5,17 +5,31 @@ p {
     color: #0960eb;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
+    margin: 30px;
+    padding: 10px;
 }
 h1 {
     color: #2f9294;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
 }
 h2 {
     color: #2f9294;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    margin: 30px;
 }
 h3 {
     color: #0009ba;
     font-family:Georgia, 'Times New Roman', Times, serif
+    
 }
+a:visited {
+    color: #bbc4bd;
+}
+a:hover {
+    color:aliceblue;
+    background-color: #42f572;
+}
+
+
