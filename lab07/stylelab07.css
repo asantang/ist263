@@ -24,6 +24,9 @@ h3 {
     font-family:Georgia, 'Times New Roman', Times, serif
     
 }
+a{
+    color:#0009ba;
+}
 a:visited {
     color: #bbc4bd;
 }
