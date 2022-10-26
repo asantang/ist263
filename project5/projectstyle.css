@@ -15,6 +15,13 @@ a:hover {
     color: #d9c3aa;
     text-decoration: none;
 }
+.expandlinks {
+    font-size: 28px;
+    color: #d9c3aa;
+}
+.expandlinks:hover {
+    text-decoration: underline;
+}
 div {
     padding: 4px;
 }
