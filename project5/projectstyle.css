@@ -36,12 +36,12 @@ h2 {
 }
 .topleft {
     position: absolute;
-    top: 160px;
+    top: 275px;
     left: 30px;
 }
 .firstsentance{
     position: absolute;
-    top: 250px;
+    top: 360px;
     left: 35px;
     font-size: 16px;
     color: #ffffff;
