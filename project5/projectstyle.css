@@ -1,0 +1,45 @@
+/**home styling**/
+div {
+    padding: 8px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px
+
+}
+.homelinks, .sitecontent {
+    display: flex;
+    justify-content: space-between;
+
+}
+.timeline {
+    display: flex;
+    justify-content: center;
+}
+.timelinewords {
+    display: flex;
+}
+.topleft {
+    position: absolute;
+    top: 160px;
+    left: 16px;
+}
+.homepagetitle {
+    font-size: 60px;
+    color: #ffffff
+    
+}
+/**geometric period styling**/
+.geometrictitle1, .geometrictitle2, .geometrictitle3 {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+.vaseclassification {
+    display: flex;
+}
+/**footer**/
+.footer {
+    text-align: center;
+}
