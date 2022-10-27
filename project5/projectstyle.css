@@ -74,3 +74,19 @@ h2 {
 .footer {
     text-align: center;
 }
+/**about**/
+.welcomemessage {
+    display: flex;
+    margin: 20px;
+}
+.welcomemessage1 {
+    padding-right: 220px;
+}
+.welcomemessage2 {
+    padding-left: 40px;
+}
+.davidvideomessage {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}

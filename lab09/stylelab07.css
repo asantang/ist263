@@ -1,0 +1,63 @@
+body {
+    background-color: #faf9f5
+}
+p {
+    color: #0960eb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+h1 {
+    color: #2f9294;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+h2 {
+    color: #2f9294;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h3 {
+    color: #0009ba;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+a{
+    color:#0009ba;
+}
+a:visited {
+    color: #bbc4bd;
+}
+a:hover {
+    color:aliceblue;
+    background-color: #42f572;
+}
+.skillsheading{
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+.iconsandwords {
+    display: flex;
+    justify-content: space-evenly;
+}
+.otherskills {
+    border-radius: 25px;
+  background: #d5f9b7;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+.bigdiv {
+    display: flex;
+}
+.iconsandwords2 {
+    flex-basis: 75%;
+}
+.otherskills2 {
+    flex-basis: 25%;
+}
+.skillswelcomeline {
+    padding: 30px;
+    margin-left: 8%;
+}
+
