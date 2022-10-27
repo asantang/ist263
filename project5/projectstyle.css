@@ -6,9 +6,11 @@ p{
 }
 a {
     text-decoration: none;
+    color: #7cac9c
+    font-size: 15px
 }
 a:visited {
-    color: #000000;
+    color: #7cac9c;
     text-decoration: none;
 }
 a:hover {
@@ -30,12 +32,32 @@ h2 {
 }
 .nav {
     display: flex;
-    justify-content: space-between;
+}
+.homelinks {
+    flex-basis: 15%;
+}
+.home, .about {
+    justify-content: space-evenly;
+}
+.line {
+    margin-top: 6px;
+    margin-left: 30px;
+    flex-basis: 2%;
+    justify-content: center;
+    color: #7cac9c;
+}
+.sitecontent {
+    flex-basis: 10%;
+    justify-content:space-evenly;
 }
 .homelinks, .sitecontent {
     display: flex;
     font-size: 13px;
     font-family:Arial, Helvetica, sans-serif;
+}
+.painthorse {
+    justify-content: right;
+    margin-left: 1150px;
 }
 .timelinewords {
     display: flex;
@@ -48,7 +70,7 @@ h2 {
 }
 .firstsentance{
     position: absolute;
-    top: 360px;
+    top: 380px;
     left: 35px;
     font-size: 16px;
     color: #ffffff;
@@ -69,6 +91,22 @@ h2 {
 }
 .vaseclassification {
     display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.vaselineimage {
+    display: block;
+  margin-left: 110px;
+  margin-right: auto;
+  width: 85%;
+}
+.amphora, .krater, .oinochoe, .kylix, .kantharos, .lekythos {
+    text-align: center;
+}
+.vasediagram {
+    padding: 50px;
 }
 /**footer**/
 .footer {
