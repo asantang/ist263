@@ -1,3 +1,11 @@
+@font-face{
+    src: url(../fonts/lora.ttf);
+    font-family: lora;
+}
+@font-face{
+    src: url(../fonts/benne.tff);
+    font-family: benne;
+}
 /**home styling**/
 p{
     font-size: 13px;
@@ -6,11 +14,11 @@ p{
 }
 a {
     text-decoration: none;
-    color: #7cac9c
-    font-size: 15px
+    color: #408361;
+    font-size: 14px
 }
 a:visited {
-    color: #7cac9c;
+    color: #408361;
     text-decoration: none;
 }
 a:hover {
@@ -47,17 +55,16 @@ h2 {
     color: #7cac9c;
 }
 .sitecontent {
-    flex-basis: 10%;
+    flex-basis: 20%;
     justify-content:space-evenly;
 }
 .homelinks, .sitecontent {
     display: flex;
-    font-size: 13px;
     font-family:Arial, Helvetica, sans-serif;
 }
 .painthorse {
     justify-content: right;
-    margin-left: 1150px;
+    margin-left: 1100px;
 }
 .timelinewords {
     display: flex;
@@ -78,10 +85,8 @@ h2 {
 }
 .homepagetitle {
     font-size: 50px;
+    font-family: benne;
     color: #ffffff;
-}
-.homepagetitle {
-    font-family:'Times New Roman', Times, serif;
 }
 /**geometric period styling**/
 .geometrictitle1, .geometrictitle2, .geometrictitle3 {
@@ -116,6 +121,8 @@ h2 {
 .welcomemessage {
     display: flex;
     margin: 20px;
+    font-size: 30px;
+    font-family: benne;
 }
 .welcomemessage1 {
     padding-right: 220px;
