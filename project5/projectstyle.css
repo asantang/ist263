@@ -35,8 +35,18 @@ a:hover {
 div {
     padding: 4px;
 }
+h1 {
+    font-family: benne;
+}
 h2 {
+    font-family: benne;
     color: #d9c3aa;
+}
+h3 {
+    font-family: benne;
+}
+h4 {
+    font-family: benne;
 }
 .nav {
     display: flex;
@@ -100,6 +110,8 @@ h2 {
     margin: 40px;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-family: benne;
+    font-size: 23px;
 }
 .vaselineimage {
     display: block;
@@ -131,7 +143,14 @@ h2 {
     padding-left: 40px;
 }
 .davidvideomessage {
-    width: 30%;
+    width: 60%;
     text-align: center;
     margin: 0 auto;
+}
+.lfm {
+    font-size: 40px;
+}
+.greekingout {
+    font-family: benne;
+    font-size: 18px;
 }
