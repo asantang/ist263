@@ -15,7 +15,7 @@ p{
 a {
     text-decoration: none;
     color: #408361;
-    font-size: 14px
+    font-size: 16px
 }
 a:visited {
     color: #408361;
@@ -28,6 +28,7 @@ a:hover {
 .expandlinks {
     font-size: 28px;
     color: #d9c3aa;
+    font-family: benne;
 }
 .expandlinks:hover {
     text-decoration: underline;
@@ -50,17 +51,19 @@ h4 {
 }
 .nav {
     display: flex;
+    font-family: benne;
 }
 .homelinks {
-    flex-basis: 15%;
+    flex-basis: 35%;
+    justify-content:space-between;
 }
 .home, .about {
     justify-content: space-evenly;
 }
 .line {
     margin-top: 6px;
-    margin-left: 30px;
-    flex-basis: 2%;
+    margin-left: 20px;
+    flex-basis: 1%;
     justify-content: center;
     color: #7cac9c;
 }
@@ -70,7 +73,7 @@ h4 {
 }
 .homelinks, .sitecontent {
     display: flex;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: benne;
 }
 .painthorse {
     justify-content: right;
@@ -125,9 +128,20 @@ h4 {
 .vasediagram {
     padding: 50px;
 }
-/**footer**/
-.footer {
-    text-align: center;
+.tarracottakrater{
+    display: flex;
+    margin-right: 800px
+}
+.amphoraofdipylon {
+    display: flex;
+}
+.bronzehorse{
+    display:flex;
+    margin-right: 700px
+}
+.terracottapyxis {
+    display:flex;
+    margin-left: 700px
 }
 /**about**/
 .welcomemessage {
@@ -153,4 +167,8 @@ h4 {
 .greekingout {
     font-family: benne;
     font-size: 18px;
+}
+/**footer**/
+.footer {
+    text-align: center;
 }
