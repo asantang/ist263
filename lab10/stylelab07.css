@@ -60,4 +60,10 @@ a:hover {
     padding: 30px;
     margin-left: 8%;
 }
-
+@media only screen and (min-width: 375px) {
+    nav a {max-width: 100%; display:block}
+    .headerimage {max-width: 100%;}
+    span { display: none}
+    .part2 {flex-wrap: wrap;}
+    
+}
