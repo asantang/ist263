@@ -101,6 +101,13 @@ h4 {
     font-family: benne;
     color: #ffffff;
 }
+@media only screen and (max-width: 1200px) {
+                
+    .homepagetitle {position: absolute;
+        top: 100px;
+        left: 25px;}
+}
+
 /**geometric period styling**/
 .geometrictitle1, .geometrictitle2, .geometrictitle3 {
     width: 30%;
