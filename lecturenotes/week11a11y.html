@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #skip {
+            background-color: orange;
+            border: 1px solid #000000;
+            padding: 2px;
+            position: absolute;  /*out of page flow for layout*/
+            left: -999px;
+        }
+        #skip:focus {
+            left: 10px;
+            top:30px;
+        }
+    </style>
+</head>
+<body>
+    <a id="skip" tabindex="1" href="#content">skip To Content</a>
+    <!--pound sign in href means same page (bookmark)-->
+    <a href="http://www.syr.edu" tabindex="2">SU</a> 
+    <a href="http://www.amazon.edu"tabindex="3">Amazon</a><br>
+    <a href="http://www.google.edu"tabindex="4">Google</a> 
+
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio blanditiis hic corporis nam saepe eligendi nisi libero exercitationem debitis maxime? Numquam voluptatum consequuntur earum dolore eum repudiandae ut, ipsum vitae.</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati velit omnis, enim natus maiores aperiam fuga et est magni. Sint culpa recusandae dolorem temporibus maxime consectetur iusto dignissimos quis voluptatum.</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis libero architecto, eius nihil officia dolorum consectetur aperiam repudiandae temporibus nemo voluptas perspiciatis distinctio fugiat. Quasi natus aliquid maiores laudantium inventore.</p>
+   <p id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vel aperiam! Officia odit vel atque vero nostrum fugiat est similique omnis placeat consequatur esse nihil autem totam, dolor assumenda sint.</p>
+   <!--this is part of a bookmark link-->
+</body>
+</html>
