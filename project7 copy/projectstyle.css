@@ -1,0 +1,205 @@
+@font-face{
+    src: url(../fonts/lora.ttf);
+    font-family: lora;
+}
+@font-face{
+    src: url(../fonts/benne.tff);
+    font-family: benne;
+}
+/**home styling**/
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+   
+}
+.nav3 {
+    display: flex;
+    justify-content: space-between;
+}
+.home, .about, .line, .geometric, .redfig, .blackfig, .classical {
+    padding: 6px;
+    font-family: benne;
+    padding-top: 10px;
+}
+.line{
+    color: #408361;
+}
+p{
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+    color: #408361;
+    font-size: 16px
+}
+a:visited {
+    color: #408361;
+    text-decoration: none;
+}
+a:hover {
+    color: #d9c3aa;
+    text-decoration: none;
+}
+.expandlinks {
+    font-size: 28px;
+    color: #d9c3aa;
+    font-family: benne;
+}
+.expandlinks:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-family: benne;
+}
+h2 {
+    font-family: benne;
+    color: #d9c3aa;
+}
+h3 {
+    font-family: benne;
+}
+h4 {
+    font-family: benne;
+}
+.timelinewords {
+    display: flex;
+    margin: 10px;
+}
+.timelinewords1, .timelinewords2, .timelinewords3, .timelinewords4 {
+    margin: 18px;
+}
+.firstsentance{
+    font-size: 16px;
+    color: #000000;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+.homepagetitle {
+    font-size: 40px;
+    font-family: benne;
+    color: #000000;
+    margin: 20px;
+}
+@media only screen and (max-width: 600px) {
+                
+    .timelinewords {flex-wrap: wrap;}
+    .navigation { font-size: 6px;}
+    .home, .about, .geoetric, .redfig, .blackfig, .classical {font-size: 6px;}
+}
+@media only screen and (min-width: 600px) {
+}
+
+/**geometric period styling**/
+.geometrictitle1, .geometrictitle2, .geometrictitle3 {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+.vaseclassification {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: benne;
+    font-size: 23px;
+}
+.vaselineimage {
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+.amphora, .krater, .oinochoe, .kylix, .kantharos, .lekythos {
+    text-align: center;
+}
+.vasediagram {
+    padding: 50px;
+}
+.tarracottakrater{
+    display: flex;
+    margin-right: 700px;
+}
+.kraterhorsedescription {
+    padding-left: 30px;
+}
+.amphoraofdipylon {
+    display: flex;
+}
+.amohoradescription {
+    padding-right: 20px;
+}
+.bronzehorse{
+    display:flex;
+    margin-right: 700px
+}
+.terracottapyxis {
+    display:flex;
+    margin-left: 700px
+}
+@media only screen and (max-width: 600px) {
+    .geometrictitle3 {width: 80%;}
+    .marblestriwithwords {display:none}
+    .home, .about, .geometry, .redfig, .blackfig, .classical {size: 6px}
+    .vaseclassification {display:block}
+    .vaselineimage {width: 100%; height: 100%; }
+    .geometricworks {display:block;}
+    
+}
+@media only screen and (min-width: 600px) {
+    .marblestrip, .homepagetitle, .firstsentance { display:none}
+
+}
+/**Black FIgure**/
+.eleusisamphora {float: left; margin-right: 10px;}
+{margin-right: 100px}
+.eleusisamphoratext {float: left; margin-left: 10px;}
+.ajaxachilles {
+    display:flex; 
+}
+.dionysuscup {
+    display: flex;
+}
+.achillespenthesilea {
+    display: flex;
+}
+.terracottadinos {
+    display: flex;
+}
+.kouros {
+    display: flex;
+}
+.nikandre {
+    display: flex;
+}
+/**about**/
+.welcomemessage {
+    display: flex;
+    margin: 20px;
+    font-size: 30px;
+    font-family: benne;
+}
+.welcomemessage1 {
+    padding-right: 220px;
+}
+.welcomemessage2 {
+    padding-left: 40px;
+}
+.davidvideomessage {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+.lfm {
+    font-size: 40px;
+}
+.greekingout {
+    font-family: benne;
+    font-size: 18px;
+}
+/**footer**/
+.footer {
+    text-align: center;
+}
