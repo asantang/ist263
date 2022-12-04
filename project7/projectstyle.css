@@ -7,14 +7,14 @@
     font-family: benne;
 }
 /**skip to content**/
-#skip {
+.skip {
     background-color: rgb(255, 255, 255);
-    border: 2px solid ##408361;
+    border: 2px solid #408361;
     padding: 2px;
     position: absolute;  /*out of page flow for layout*/
     left: -999px;
 }
-#skip:focus {
+.skip:focus {
     left: 10px;
     top:30px;
 }
