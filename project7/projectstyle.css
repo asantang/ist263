@@ -107,6 +107,9 @@ h4 {
     font-family: benne;
     font-size: 23px;
 }
+.geometricworks {
+    margin: 30px;
+}
 .vaselineimage {
     display: block;
     margin-left: auto;
@@ -120,84 +123,207 @@ h4 {
 }
 .tarracottakrater{
     display: flex;
-    margin-right: 700px;
 }
-.kraterhorsedescription {
-    padding-left: 30px;
+.kraterdescription, .horsedescription {
+    padding-left: 20px;
+    margin-left: 20px;
 }
 .amphoraofdipylon {
     display: flex;
 }
-.amohoradescription {
-    padding-right: 20px;
-}
 .bronzehorse{
     display:flex;
-    margin-right: 700px
+    padding-right: 20px;
 }
 .terracottapyxis {
     display:flex;
-    margin-left: 700px
+    padding-right: 20px;
+    justify-content: right;
 }
+
 @media only screen and (max-width: 600px) {
     .geometrictitle3 {width: 80%;}
     .marblestriwithwords {display:none}
     .home, .about, .geometry, .redfig, .blackfig, .classical {size: 6px}
     .vaseclassification {display:block}
-    .vaselineimage {width: 100%; height: 100%; }
-    .geometricworks {display:block;}
-    
+    .vaselineimage {width: 400px; height: 100%; }
+    .geometricworks {width:400px; margin: auto}
+    .tarracottakrater {display:block;} 
+    .amphoraofdipylon, .terracottapyxis {display:block; margin-right:10px;}
+    .kraterdescription, .horsedescription {margin-left:0px; padding: 0px;}
+    .bronzehorse {display:block; margin-right:10px;}
+    .g1, .g2, .g3, .g4, .g5 {width: 400px; height: 100%;} 
 }
 @media only screen and (min-width: 600px) {
     .marblestrip, .homepagetitle, .firstsentance { display:none}
+    .kraterdescription, .horsedescription {margin-right:700px; padding: 0px;}
+    .terracottapyxisdescription {margin-left: 650px; padding: 0px;}
+}
+/**Black Figure**/
+.eleusisamphora {display: flex; margin: 80px;}
+.eleusisamphoratext {margin-right: 100px; margin-left:20px;
+}
+.ajaxachilles {
+    display:flex; margin: 80px; 
+}
+.dionysuscup {display: flex;  margin: 80px;}
+.dionysuscuptext {margin-right: 600px; margin-left:20px;
+}
+.achillespenthesilea {display: flex; margin: 80px;}
+.achillespenthesileatext { margin-right: 20px; margin-left:600px 
+}
+.terracottadinos {display: flex;margin: 80px;}
+.terracottadinostext {margin-right: 600px; margin-left:20px
+}
+.kouros {display: flex; margin: 80px;}
+.kourostext {margin-right: 40px; margin-left:600px;
+}
+.nikandre {display: flex;  margin: 80px;}
+.nikandretext {margin-right: 600px; margin-left:20px;
+}
+@media only screen and (max-width: 600px) {
+    .eleusisamphora {display: block;}
+    .eleusisamphoratext {margin-right:10px; margin-left:20px;}
+    .eleusisamphoraimages {width:350px; height: 100%;}
+    .ajaxachilles {display: block;}
+    .ajaxachillesimages {width:350px; height: 100%;}
+    .dionysuscup {display: block;}
+    .dionysuscuptext {margin-right:10px; margin-left:20px;}
+    .dionysuscupimages {width:350px; height: 100%;}
+    .achillespenthesilea {display:block;}
+    .achillespenthesileatext {margin-right:10px; margin-left:20px;}
+    .achillespenthesileaimages {width:350px; height: 100%;}
+    .terracottadinos{display:block;}
+    .terracottadinosimages {width:350px; height: 100%;}
+    .terracottadinostext{margin-right:10px; margin-left:20px;}
+    .kouros{display:block;}
+    .kourostext {margin-right:10px; margin-left:20px;}
+    .kourosimages{width:350px; height: 100%;}
+    .nikandre {display:block;}
+    .nikandretext {margin-right:10px; margin-left:20px;}
+    .nikandreimages{width:350px; height: 100%;}
 
 }
-/**Black FIgure**/
-.eleusisamphora {float: left; margin-right: 10px;}
-{margin-right: 100px}
-.eleusisamphoratext {float: left; margin-left: 10px;}
-.ajaxachilles {
-    display:flex; 
+
+
+/**Red Figure**/
+@media only screen and (min-width: 600px) {
+.threerevelers {display: flex;  margin: 80px;}
+.threerevelerstext {margin-right: 600px; margin-left:20px; 
+
 }
-.dionysuscup {
-    display: flex;
+.symposiumscene {display: flex;  margin: 80px;}
+.symposiumscenetext {margin-right: 20px; margin-left:350px; 
 }
-.achillespenthesilea {
-    display: flex;
+.sarpedonkrater {display: flex;  margin: 80px;}
+.sarpedonkratertext {margin-right: 400px; margin-left:20px; 
 }
-.terracottadinos {
-    display: flex;
+.kritiosboy {display: flex;  margin: 80px;}
+.kritiosboytext {margin-right: 20px; margin-left:1000px;
 }
-.kouros {
-    display: flex;
+.riacewarrior {display: flex;  margin: 80px;}
+.riacewarriortext {margin-right: 600px; margin-left:20px;
 }
-.nikandre {
-    display: flex;
-}**/
+.charioteerdelphi {display: flex;  margin: 80px;}
+.charioteerdelphitext {margin-right: 20px; margin-left:800px;
+}
+}
+@media only screen and (max-width: 600px){
+    .threerevelers {display:block;}
+    .threerevelerstext {margin-right:10px; margin:50px;}
+    .threerevelersimages {width:350px; height: 100%; margin-left: 60px;}
+    .symposiumscene {display:block;}
+    .symposiumscenetext {margin-right:10px; margin:50px;}
+    .symposiumsceneimages {width:350px; height: 100%; margin-left: 60px;}
+    .sarpedonkrater {display:block;}
+    .sarpedonkratertext {margin-right:10px; margin:50px;}
+    .sarpedonkraterimages {width:350px; height: 100%; margin-left: 60px;}
+    .kritiosboy {display:block;}
+    .kritiosboytext {margin-right:10px; margin:50px;}
+    .kritiosboyimages {width:350px; height: 100%; margin-left: 60px;}
+    .riacewarrior {display:block;}
+    .riacewarriortext {margin-right:10px; margin:50px;}
+    .riacewarriorimages {width:350px; height: 100%; margin-left: 60px;}
+    .charioteerdelphi {display:block;}
+    .charioteerdelphitext {margin-right:10px; margin:50px;}
+    .charioteerdelphiimages {width:350px; height: 100%; margin-left: 60px;}
+}
+
+
+/**classical**/
+.discobolis {display: flex;  margin: 80px;}
+.discobolistext{margin-right: 600px; margin-left:20px;
+}
+.doryphoros {display: flex;  margin: 80px;}
+.doryphorostext {margin-right: 20px; margin-left:1200px;
+}
+.cretianbull {display: flex;  margin: 80px;}
+.cretianbulltext{margin-right: 400px; margin-left:20px;
+}
+.orders {display: flex;  margin: 80px;}
+.orderstext{margin-right: 20px; margin-left:300px;
+}
+.parthenon {display: flex;  margin: 80px; margin-bottom: 20px; margin-top: 20px;}
+.parthenontext{margin-right: 0px; margin-left:20px;
+}
+.goldfinger {display: flex;  margin: 80px;}
+.goldfingertext{margin-right: 20px; margin-left:600px;
+}
+.hermes {display: flex;  margin: 80px;}
+.hermestext{margin-right: 600px; margin-left:20px;
+}
+.apollo {display: flex;  margin: 80px;}
+.apollotext{margin-right: 20px; margin-left:1200px;
+}
+.knidia {display: flex;  margin: 80px;}
+.knidiatext{margin-right: 1000px; margin-left:20px;
+}
+@media only screen and (max-width: 600px) {
+    .discobolis {display:block;}
+    .discobolistext {margin-right:10px; margin:10px;}
+    .discobolisimages {width:350px; height: 100%; margin-left: 0px;}
+    .doryphoros {display:block;}
+    .doryphorostext {margin-right:10px; margin:10px;}
+    .doryphorosimages {width:350px; height: 100%; margin-left: 0px;}
+    .cretianbull {display:block;}
+    .cretianbulltext {margin-right:10px; margin:10px;}
+    .cretianbullimages {width:350px; height: 100%; margin-left: 0px;}
+    .orders {display:block;}
+    .orderstext {margin-right:10px; margin:10px;}
+    .ordersimages {width:350px; height: 100%; margin-left: 0px;}
+    .parthenon {display:block;}
+    .parthenontext {margin-right:10px; margin:10px;}
+    .parthenonimages {width:350px; height: 100%; margin-left: 0px;}
+    .goldfinger {display:block;}
+    .goldfingertext {margin-right:10px; margin:10px;}
+    .goldfingerimages {width:350px; height: 100%; margin-left: 0px;}
+    .hermes {display:block;}
+    .hermestext {margin-right:10px; margin:10px;}
+    .hermesimages {width:350px; height: 100%; margin-left: 0px;}
+    .apollo {display:block;}
+    .apollotext {margin-right:10px; margin:10px;}
+    .apolloimages {width:350px; height: 100%; margin-left: 0px;}
+    .knidia {display:block;}
+    .knidiatext {margin-right:10px; margin:10px;}
+    .knidiaimages {width:350px; height: 100%; margin-left: 0px;}
+}
+
 /**about**/
-.welcomemessage {
-    display: flex;
-    margin: 20px;
-    font-size: 30px;
-    font-family: benne;
+@media only screen and (min-width: 600px) {
+    .sectionone {display:flex; margin: 50px;}
+    .thanks {margin-right: 400px;}
+    .davidvideomessage {text-align: center;}
 }
-.welcomemessage1 {
-    padding-right: 220px;
-}
-.welcomemessage2 {
-    padding-left: 40px;
-}
-.davidvideomessage {
-    width: 60%;
-    text-align: center;
-    margin: 0 auto;
-}
-.lfm {
-    font-size: 40px;
-}
-.greekingout {
-    font-family: benne;
-    font-size: 18px;
+@media only screen and (max-width: 600px) {
+
+    .welcomemessage {display: block; margin: 40px; }
+    .alexacropolis {margin-left: 50px;}
+    .sectionone {display:block; margin:0px;}
+    .thanks {font-size: 20px; margin-right: 0px;}
+    .alexacropolis {width:350px; height: 100%; margin-left: 0px;}
+    .davidvideo {height: 300px; width: 350px;}
+    .davidvideomessage {text-align: center; margin:10px;}
+
 }
 /**footer**/
 .footer {
