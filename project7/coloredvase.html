@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projectstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <title>Change Vase Picker</title>
+    <script>
+        function changeColor () {
+            document.getElementById("unpaintedhorse").style.backgroundColor = document.getElementById("picker").value
+        }
+    </script>
+    <style>
+        .colorchange {background-color: white;}
+        .screenreadertext {color:white}
+    </style>
+</head>
+<body id="thepage">
+<div class="colorchange">    
+    <nav>
+        <div class="navigation">
+            <div>
+                <div class="nav3">
+                    <div class="home"><a href="home.html">Home</a></div>
+                    <div class="about"><a href="about.html">About</a></div>
+                    <div class="line">|</div>
+                    <div class="geometric"><a href="geometric.html">Geometric</a></div>
+                    <div class="blackfig"><a href="blackfigure.html">Archaic Black</a></div>
+                    <div class="redfig"><a href="redfigure.html">Archaic Red</a></div>
+                    <div class="classical"><a href="classical.html">Classical</a></div>
+                </div>
+            </div>
+            <div>
+                <div class="social">
+                    <div><a class="painthorse" href="coloredvase.html"><img src="../Images/greekimages/painthorse.jpg" alt="Painted Bronze Horse" height="35px"></a></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <h1>You discovered the scret page!</h1>
+    <h3>Use the color picker to reveal the myth of the death of Achilles!</h3>
+    <form>
+        <input type="color" id="picker" onchange="changeColor();">
+    </form>
+</div>
+    <div><img id="unpaintedhorse" src="../Images/greekimages/invisablemessage.png" alt="The Death of Achilles" height="550"></div>
+    <div class="screenreadertext">Troilus was the son of Apollo and Queen Hecuba of Troy. It was fated that if Troilus reached adulthood than Troy would not fall against the Greeks. Athena encouraged Achilles to find him, and Achilles was able to track him down and kill him. This lead Apollo to see revenge for the death of his son by helping Paris kill Achilles. Achilles met his downfall by one of Paris’ arrows guided by Appollo to his most vulnerable point, his heel. This myth is depicted on the handle of the Francois Vase, one can see Ajax carrying the dead body of Achilles.</div>
+    </div>
+</body>
+</html>
