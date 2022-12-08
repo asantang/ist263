@@ -240,7 +240,7 @@ h4 {
 /**Red Figure**/
 @media only screen and (min-width: 600px) {
 .threerevelers {display: flex;  margin: 80px;}
-.threerevelerstext {margin-right: 600px; margin-left:20px; 
+.threerevelerstext {margin-right: 800px; margin-left:20px; 
 
 }
 .symposiumscene {display: flex;  margin: 80px;}
