@@ -286,7 +286,7 @@ h4 {
 .discobolistext{margin-right: 600px; margin-left:20px;
 }
 .doryphoros {display: flex;  margin: 80px;}
-.doryphorostext {margin-right: 20px; margin-left:1200px;
+.doryphorostext {margin-right: 20px; margin-left:800px;
 }
 .cretianbull {display: flex;  margin: 80px;}
 .cretianbulltext{margin-right: 400px; margin-left:20px;
@@ -304,10 +304,10 @@ h4 {
 .hermestext{margin-right: 600px; margin-left:20px;
 }
 .apollo {display: flex;  margin: 80px;}
-.apollotext{margin-right: 20px; margin-left:1200px;
+.apollotext{margin-right: 20px; margin-left:800px;
 }
 .knidia {display: flex;  margin: 80px;}
-.knidiatext{margin-right: 1000px; margin-left:20px;
+.knidiatext{margin-right: 800px; margin-left:20px;
 }
 @media only screen and (max-width: 600px) {
     .discobolis {display:block;}
@@ -340,7 +340,21 @@ h4 {
 }
 
 /**about**/
-@media only screen and (min-width: 600px) {
+
+.welcomebox {display:flex; margin: 80px;}
+.section1 {margin-right: 200px;}
+.section3 {text-align: center;}
+.davidpromo {margin-bottom: 40px;}
+
+@media only screen and (max-width: 600px) {
+.welcomebox {display:block; margin: 80px;}
+.alexacropolis {width:350px; height: 100%; margin-left: 0px;}
+.section1 {margin-right: 0px; margin-bottom: 50px;}
+.davidvideo {height: 300px; width: 350px;}
+}
+
+
+/**@media only screen and (min-width: 600px) {
     .sectionone {display:flex; margin: 50px;}
     .thanks {margin-right: 400px;}
     .davidvideomessage {text-align: center;}
@@ -355,7 +369,9 @@ h4 {
     .davidvideo {height: 300px; width: 350px;}
     .davidvideomessage {text-align: center; margin:10px;}
 
-}
+}**/
+
+
 /**footer**/
 .footer {
     text-align: center;
