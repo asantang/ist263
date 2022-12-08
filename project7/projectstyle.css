@@ -125,7 +125,7 @@ h4 {
 
 /**geometric period styling**/
 .geometrictitle1, .geometrictitle2, .geometrictitle3 {
-    width: 30%;
+    width: 60%;
     text-align: center;
     margin: 0 auto;
 }
@@ -283,7 +283,7 @@ h4 {
 
 /**classical**/
 .discobolis {display: flex;  margin: 80px;}
-.discobolistext{margin-right: 600px; margin-left:20px;
+.discobolistext{margin-right: 800px; margin-left:20px;
 }
 .doryphoros {display: flex;  margin: 80px;}
 .doryphorostext {margin-right: 20px; margin-left:800px;
@@ -310,6 +310,7 @@ h4 {
 .knidiatext{margin-right: 800px; margin-left:20px;
 }
 @media only screen and (max-width: 600px) {
+    .geometrictitle1 {margin-top: 40px;}
     .discobolis {display:block;}
     .discobolistext {margin-right:10px; margin:10px;}
     .discobolisimages {width:350px; height: 100%; margin-left: 0px;}
